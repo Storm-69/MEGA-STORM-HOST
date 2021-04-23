@@ -17,8 +17,9 @@ DEFAULTUSER = ALIVE_NAME or "Mafia User"
 MAFIA_IMG = Config.ALIVE_PIC
 CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "𝕃𝕖𝕘𝕖𝕟𝕕𝕒𝕣𝕪_𝔸𝔽_𝕄𝕒𝕗𝕚𝕒𝔹𝕠𝕥"
 
+USERID = bot.uid
 
-mention = f"{DEFAULTUSER}"
+mention = f"[{DEFAULTUSER}](tg://user?id={USERID})"
 
 
 def get_readable_time(seconds: int) -> str:

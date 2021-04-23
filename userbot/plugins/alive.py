@@ -29,6 +29,7 @@ if ludosudo:
 else:
     sudou = "False"
 
+mafia = bot.uid
 
 edit_time = 10
 """ =======================CONSTANTS====================== """
@@ -40,7 +41,7 @@ file4 = "https://telegra.ph/file/16f20e53ebab4474b7ea3.jpg"
 pm_caption = "  __**🔥🔥𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
 
 pm_caption += (
-    f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈{DEFAULTUSER}😈』**\n\n"
+    f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
 )
 
 pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n\n"
