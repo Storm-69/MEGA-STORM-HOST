@@ -37,8 +37,8 @@ if ENV:
         MIRROR_ACE_API_KEY = os.environ.get("MIRROR_ACE_API_KEY", False)
         MIRROR_ACE_API_TOKEN = os.environ.get("MIRROR_ACE_API_KEY", False)
         # Telegram BOT Token from @BotFather
-        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", False)
-        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", False)
+        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", "1445762068:AAG_-327E_oIzta6TGGbdc6-RqePyM8fyR8")
+        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", "@MAFIA_PUBLIC_bot")
         #spootifie
         SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", False)
         SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS", False)
@@ -73,14 +73,14 @@ if ENV:
         NO_SONGS = bool(os.environ.get("NO_SONGS", False))
         MAX_FLOOD_IN_P_M_s = int(os.environ.get("MAX_FLOOD_IN_P_M_s", 3))
         #pm log
-        PM_LOG_GRP_ID = os.environ.get("PM_LOG_GRP_ID", False)
+        PM_LOG_GRP_ID = os.environ.get("PM_LOG_GRP_ID", -336323518)
         # set to True if you want to log PMs to your PM_LOGGR_BOT_API_ID
         NC_LOG_P_M_S = bool(os.environ.get("NC_LOG_P_M_S", None))
         #heroku 
         HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", False)
         HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", False)
         # send .get_id in any channel to forward all your NEW PMs to this group
-        PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", False)
+        PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", -1001174481876)
         if PRIVATE_GROUP_BOT_API_ID:
             PRIVATE_GROUP_BOT_API_ID = int(PRIVATE_GROUP_BOT_API_ID)
         # send .get_id in your private channel to forward all your Private messages
@@ -90,7 +90,7 @@ if ENV:
 
         #Tag LOGGER
 
-        PM_LOGGR_BOT_API_ID = os.environ.get("PM_LOGGR_BOT_API_ID", False)
+        PM_LOGGR_BOT_API_ID = os.environ.get("PM_LOGGR_BOT_API_ID", -1001174481876)
         if PM_LOGGR_BOT_API_ID: PM_LOGGR_BOT_API_ID = int(PM_LOGGR_BOT_API_ID)
         # For Databases
         # can be None in which case plugins requiring
@@ -146,7 +146,7 @@ if ENV:
         BIO_MSG = os.environ.get("BIO_MSG", False)
         #Lydia API
         LYDIA_API = os.environ.get("LYDIA_API",False)
-        PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", False))
+        PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", -336323518))
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/H1M4N5HU0P/MAFIABOT"
         )
