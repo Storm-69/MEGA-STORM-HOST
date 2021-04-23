@@ -20,7 +20,7 @@ if ENV:
             "UPSTREAM_REPO", "https://github.com/H1M4N5HU0P/MAFIABOT"
         )
         STRING_SESSION = os.environ.get("STRING_SESSION", None)
-        
+        ALIVE_NAME = os.environ.get("ALIVE_NAME", False)
 else:
     class Config(object):
         DB_URI = None
