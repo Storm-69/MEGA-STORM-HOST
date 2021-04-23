@@ -1,4 +1,4 @@
-from userbot import mafiabot, bot
+from userbot import bot
 from sys import argv
 import sys
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
@@ -25,12 +25,12 @@ for name in files:
 
 print(f"""YOUR 𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 IS READY TO USE! FOR CHECK YOUR BOT WORKING OR NOT PLEASE TYPE (.alive/.ping) ENJOY YOUR BOT! JOIN FOR MORE FUTURE UPDATES @MAFIA_USERBOT""")
 if len(argv) not in (1, 3, 4):
-    mafiabot.disconnect()
+    bot.disconnect()
 else:
-    mafiabot.run_until_disconnected()
+    bot.run_until_disconnected()
        
 
         
 
-mafiabot.loop.run_until_complete(a())
+bot.loop.run_until_complete(a())
 
