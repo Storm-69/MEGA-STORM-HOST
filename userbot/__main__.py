@@ -24,10 +24,3 @@ for name in files:
 
 
 print(f"""YOUR 𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 IS READY TO USE! FOR CHECK YOUR BOT WORKING OR NOT PLEASE TYPE (.alive/.ping) ENJOY YOUR BOT! JOIN FOR MORE FUTURE UPDATES @MAFIA_USERBOT""")
-
-if len(argv) not in (1, 3, 4):
-    bot.disconnect()
-else:
-    bot.run_until_disconnected()
-
-
