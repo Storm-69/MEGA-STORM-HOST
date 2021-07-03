@@ -11,6 +11,7 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.functions.photos import DeletePhotosRequest, GetUserPhotosRequest
 from telethon.tl.types import Channel, Chat, InputPhoto, User
 
+from userbot.utils import admin_cmd, sudo_cmd
 @bot.on(admin_cmd(pattern="pjoin (.*)"))
 @bot.on(sudo_cmd(pattern="pjoin (.*)", allow_sudo=True))
 async def _(event):
